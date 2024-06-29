@@ -1,1 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFBFBF;
+}
+
+.login-page, .dashboard-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #E6C7C7;
+    padding: 2em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1em;
+}
+
+.login-container input {
+    display: block;
+    width: 80%;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-container button {
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background-color: #C84040;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login button {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6C7C7;
+    padding: 1em;
+    border-bottom: 2px solid #ccc;
+}
+
+.search-bar input {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+    width: 200px; /* Збільшуємо ширину при фокусі */
+}
+
+.tabs button {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    background-color: #C84040;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nickname {
+    background-color: #E6C7C7;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.notices {
+    text-align: center;
+    padding: 2em;
+}
+
+.notice-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notice-card {
+    background-color: #E6C7C7;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.more-btn {
+    padding: 0.5em 1em;
+    background-color: #C84040;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
