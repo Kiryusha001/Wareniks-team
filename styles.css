@@ -15,9 +15,10 @@ body {
 
 .login-container {
     background-color: #E6C7C7;
-    padding: 2em;
+    padding: 3em;
     border-radius: 8px;
     text-align: center;
+    width: 40%; /* Збільшили ширину */
 }
 
 .login-container h2 {
@@ -51,8 +52,15 @@ body {
     cursor: pointer;
 }
 
+.image-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image-container img {
-    max-width: 100%;
+    max-width: 80%; /* Зменшили ширину зображення */
     border-radius: 8px;
 }
 
@@ -65,6 +73,11 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
 .search-bar input {
     padding: 0.5em;
     border-radius: 5px;
@@ -74,6 +87,12 @@ header {
 
 .search-bar input:focus {
     width: 200px; /* Збільшуємо ширину при фокусі */
+}
+
+.search-bar .search-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
 }
 
 .tabs button {
@@ -90,6 +109,15 @@ header {
     background-color: #E6C7C7;
     padding: 0.5em 1em;
     border-radius: 5px;
+}
+
+.nickname-btn {
+    background-color: #C84040;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
 }
 
 .notices {
