@@ -136,8 +136,9 @@ header {
     margin: 1em;
     padding: 1em;
     border-radius: 8px;
-    width: 150px;
+    width: 300px;
     text-align: center;
+    height: fit-content;
 }
 
 .more-btn {
